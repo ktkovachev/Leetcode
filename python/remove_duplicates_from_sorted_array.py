@@ -6,3 +6,4 @@ class Solution:
                 del nums[i]
             else:
                 current = nums[i]
+        return len(nums)
